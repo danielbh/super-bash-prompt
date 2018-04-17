@@ -1,11 +1,16 @@
 # super-bash-prompt
 
-source ~/.bash_prompt
 
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
 # Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles
 # iTerm → Profiles → Text → use 13pt Monaco with 1.1 vertical spacing.
+
+ put this is .bash_profile 
+ 
+ ```bash 
+ 	source ~/.bash_prompt
+ ```
 
 ```bash
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
