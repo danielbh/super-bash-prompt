@@ -7,6 +7,7 @@ source ~/.bash_prompt
 # Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles
 # iTerm → Profiles → Text → use 13pt Monaco with 1.1 vertical spacing.
 
+```bash
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
 	export TERM='gnome-256color';
 elif infocmp xterm-256color >/dev/null 2>&1; then
@@ -137,3 +138,4 @@ PS2="\[${yellow}\]→ \[${reset}\]";
 export PS2;
 
 trap "echo -ne '${reset}'" DEBUG
+```
