@@ -9,7 +9,7 @@
  put this is .bash_profile 
  
  ```bash 
- 	source ~/.bash_prompt
+ source ~/.bash_prompt
  ```
 
 ```bash
